@@ -15,6 +15,7 @@ namespace WeatherCalculator3
             double heatIndex;
             string input = "";
             bool con = true;
+
             while (con)
             {  // Get the temperature from the user
                 Console.WriteLine("Enter the temperature");
@@ -59,6 +60,7 @@ namespace WeatherCalculator3
                     // Write the windchill out to the console
                     Console.WriteLine("The wind chill is " + windChill);
                 }
+
                 Console.WriteLine("Done? yes or no?");
                 input = Console.ReadLine();
 
